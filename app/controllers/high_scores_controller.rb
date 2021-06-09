@@ -1,4 +1,4 @@
-class HighScoresController < ApplicationController
+  class HighScoresController < ApplicationController
   before_action :set_high_score, only: %i[ show edit update destroy ]
 
   # GET /high_scores or /high_scores.json
