@@ -3,7 +3,7 @@ class CreateHighScores < ActiveRecord::Migration[6.1]
     create_table :high_scores do |t|
       t.string :game
       t.integer :score
-
+      t.integer :score
       t.timestamps
     end
   end
