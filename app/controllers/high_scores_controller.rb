@@ -13,6 +13,9 @@
   # GET /high_scores/new
   def new
     @high_score = HighScore.new
+
+
+    
   end
 
   # GET /high_scores/1/edit
